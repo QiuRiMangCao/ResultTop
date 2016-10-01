@@ -1,0 +1,30 @@
+@charset "UTF-8";
+h3{
+	width: 100%;
+	text-align: center;
+}
+
+.box{
+	width: 80%;
+	margin: 0 auto;
+	background: #546;
+	height: 1800px;
+}
+#btn{
+	width: 40px;
+	height: 42px;
+	position: fixed;/* 固定定位 */
+	left: 50%;
+	bottom: 30px;
+	/* border: 1px solid red; */
+	background: url(top.jpg) no-repeat left top;
+	text-align: center;
+	margin-left: 500px;
+	/* 隐藏 */
+	display: none;
+}
+
+#btn:hover{
+	background: url(top.jpg) no-repeat left -40px;
+
+}
